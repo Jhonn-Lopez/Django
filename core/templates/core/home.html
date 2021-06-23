@@ -1,0 +1,55 @@
+{% extends "core/base.html" %}
+
+{% block title %}Libreria Hogwarts{% endblock title %}
+
+{% block content %}
+    <div class="container mt-1 mb-1">
+        <div class="d-flex justify-content-center">
+            <h1>Bienvenidos a la Libreria Hogwarts</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p>Aqui podras encontrar todos tus libros favoritos y si no lo tenemos, lo buscaremos para ti!</p>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            {% load static %}
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a title="carrusel1">
+                        <img src="{% static 'core/img/prisionero.jpg' %}" id="img_carr" class="d-block w-100" alt="carrusel"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a title="carrusel2">
+                        <img src="{% static 'core/img/sorcerer.jpg' %}" id="img_carr" class="d-block w-100" alt="carrusel"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a title="carrusel3">
+                        <img src="{% static 'core/img/piedra_filosofal.jpg' %}" id="img_carr" class="d-block w-100" alt="carrusel"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <p>Disfruta de nuestro catalogo y sumate a esta gran comunidad!</p>
+        </div>
+
+    </div>
+{% endblock content %}

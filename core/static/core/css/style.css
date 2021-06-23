@@ -1,0 +1,130 @@
+/*
+
+# para ID 
+. para Class
+
+*/
+#boton {
+    margin: 5px;
+}
+
+#enviar {
+    
+    margin-top: 5px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+
+body {
+    background-color: #E3E3E3;    
+}
+
+* {
+    color: #36333C;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+#img_carr{
+    width: 500px;
+    height: 900px;
+}
+
+#opc_img{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+}
+
+#img_user{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+hr {
+    clear: both;
+}
+
+.footer-basic a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footer-basic a:hover {
+    text-decoration: underline;
+}
+
+.footer-basic {
+    padding:20px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+}
+  
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+  
+.footer-basic li {
+    padding:0 10px;
+}
+  
+.footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+.footer-basic ul a:hover {
+    opacity:1;
+}
+  
+.footer-basic .copyright {
+    text-align:center;
+    font-size: 17px;
+    color:#aaa;
+    margin-bottom:0;
+}
+
+table{
+    table-layout: fixed;
+    width: 250px;
+}
+
+p{  padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-size: large;
+}
+
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+ }
+ caption {
+    padding: 0.3em;
+ }
